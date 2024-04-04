@@ -20,7 +20,7 @@ import {
 function App() {
   return (
     <>
-      <div className="bg-primary w-full overflow-hidden">
+      <div className="bg-primary w-full overflow-x-hidden">
         {/* Navbar */}
 
         <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -39,8 +39,10 @@ function App() {
         {/* Another */}
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            {/* <Stats />
+            <Stats />
             <Business />
+            {/* 
+            
             <Billing />
             <FeedbackCard />
             <CardDeal />

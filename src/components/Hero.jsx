@@ -8,12 +8,12 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className={`flex md:flex-row flex-col ${styles.paddingY}`}
+        className={`flex py-15 md:flex-row flex-col ${styles.paddingY}`}
       >
         <div
           className={`${styles.flexStart} flex-1 flex-col xl:px-0 sm:px-16 px-6`}
         >
-          <div className="flex flex-row py-[8px] px-4 items-center mb-2 bg-gradient-to-r from-indigo-500 rounded-xl ">
+          <div className="flex flex-row py-[4px] px-4 items-center mb-2 bg-gradient-to-r from-indigo-500 rounded-xl ">
             <img src={discount} className="h-8 w-8" alt="Menu" /> &nbsp;
             <p className={`${styles.paragraph}`}>
               {" "}
@@ -42,11 +42,11 @@ const Hero = () => {
             annual fees.
           </p>
         </div>
-        <div>
+        <div className="flex justify-center items-center">
           <img
             src={robot}
             alt=""
-            className="w-[600px] h-[600px] object-contain relative z-[5]"
+            className="w-[400px] h-[400px] md:h-[580px] md:w-[580px] object-contain rounded-full relative z-[5]"
           />
           <div className="absolute z-[0] w-[38%] h-[35%] top-20 pink__gradient" />
           <div className="absolute z-[0] w-[38%] h-[35%] top-40 blue__gradient" />
